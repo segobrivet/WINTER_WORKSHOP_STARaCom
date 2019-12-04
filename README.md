@@ -8,7 +8,7 @@ Our programming environment is `Python 3` with `Jupyter Notebook` and common ope
 
 Please, have installed the following:  
 ```
-pip install <package_name>)
+pip install <package_name>
 ```
 - numpy
 - tensorflow
