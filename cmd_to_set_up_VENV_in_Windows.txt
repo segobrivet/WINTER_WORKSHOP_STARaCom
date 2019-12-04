@@ -1,0 +1,20 @@
+python -m pip install -U pip
+pip install virtualenv
+
+        In desired folder:
+
+virtualenv venv
+venv\Scripts\activate.bat
+
+        Now 'venv' is activated. Make it visible to Jupyter:
+
+pip install ipykernel
+python -m ipykernel install --user --name=venv
+
+        Then on Jupyter notebook, you can select Kernel > Change kernel > venv
+        
+        To install more libraries in activated venv:
+
+pip install --upgrade tensorflow
+pip install scikit-image 
+.....
